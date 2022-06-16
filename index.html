@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <div class="container opening-background">
+            <h1 class="bg">ROCK PAPER SCISSORS</h1>
+            <a href="#header" class="bg" > START GAME</a>
+    </div>
+    <div class="game-background">
+        <h1 id="header">Rock Paper Scissors Game</h1>
+        <div class="main-flex">
+            <div class="main-items-flex">
+                <div class="flex-container">
+                    <div class="player info">
+                        <img src="./img/player.svg" alt="">
+                        <div>
+                            <p> Character : Player(You) </p>
+                            <p> Description  : A human with brain cells playing this game against a computer</p>
+                            <p> Round won  : <span class="playerRoundWin"> 0 </span></p>
+                        </div>
+                    </div> 
+                    <!-- just comparing using line break or make new line -->
+                    <div class="computer info">
+                        <img src="./img/computer.svg" alt="">
+                        <p> Character : Computer <br>
+                            Description : A computer with only 2 lines of code (with js) against you.
+                            <br>Round won : <span class="computerRoundWin"> 0 </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="center">
+                    <h2 class="winner">Choose One</h2>
+                    <p class="parafLog"></p>
+                </div>
+                <div class="flex-container">
+                    <div class="main">
+                        <div>
+                            Player Point : <span class="player-point"> 0 </span>
+                        </div>
+                        <div class="main">
+                            <button value="rock" id='button1' class="btn"> <img src="./img/rock.svg" class="img" alt=""></button>
+                            <button value="paper" id='button2' class="btn"> <img src="./img/paper.svg" alt="" class="img" ></button>
+                            <button value="scissors" id='button3' class="btn" > <img src="./img/scossors.svg" alt="" class="img" ></button>
+                        </div> 
+                    </div>
+                    <div class="main">
+                        <div >
+                            Computer Point : <span class="computer-point"> 0 </span>
+                        </div>
+                        <div class="main">
+                            <button class="btn"> <img src="./img/rock.svg" class="img" alt=""></button>
+                            <button class="btn"> <img src="./img/paper.svg" alt="" class="img" ></button>
+                            <button class="btn"> <img src="./img/scossors.svg" alt="" class="img" ></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-log">
+                <div class="round"> 
+                    ROUND<span class="total-round"> 1 </span>
+                </div> 
+                <div class="history-log">
+                    <h3> HISTORY LOG</h3>
+                    <br>
+                    <p class="round1"></p>
+                    <p class="round2"></p>
+                    <p class="round3"></p>
+                    <p class="round4"></p>
+                    <p class="round5"></p>
+                    <p class="round6"></p>
+                    <p class="round7"></p>
+                    <p class="round8"></p>
+                    <p class="round9"></p>
+                    <p class="round10"></p>
+                    <p class="round11"></p>
+                    <p class="round12"></p>
+                    <p class="round13"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Created by Naerota</p>
+        <a href="https://github.com/Naerota/rock-paper-scissor"> Github</a>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
