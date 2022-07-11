@@ -182,3 +182,26 @@
     background-color: #372134;
 }
 
+/* Before Play */
+.before-play{
+    background-color: black;
+    height: 100vh;
+    width: 1312px;
+    position: absolute;
+    display: flex;
+    color: white;
+    flex-shrink: 1;
+    flex-basis: auto;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.94;
+
+    
+}
+
+/* after click play */
+
+.after-click {
+    display: none;
+}
+

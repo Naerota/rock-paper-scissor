@@ -126,3 +126,11 @@ function history(){
     }
 }
 
+// before play
+
+const clickPlay = document.querySelector('.before-play')
+clickPlay.addEventListener('click',removeBackground)
+function removeBackground(){
+    clickPlay.classList.add('after-click')
+}
+
